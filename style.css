@@ -44,7 +44,7 @@ body {
   height: 100%;
 }
 .left-content {
-  width: 70%;
+  width: 60%;
 }
 .left-content h1 {
   font-size: 50px;
@@ -61,7 +61,6 @@ body {
   font-weight: 500;
   margin-bottom: 20px;
 }
-
 .left-content p {
   font-size: 18px;
   color: #8c8b8b;
@@ -409,7 +408,6 @@ a {
     width: 100% !important;
   }
 }
-
 /* 280 */
 @media (max-width: 319px) {
   .left-content h1 {
