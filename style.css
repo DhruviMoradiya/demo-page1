@@ -44,7 +44,7 @@ body {
   width: 70%;
 }
 .left-content h1 {
-  font-size: 50px;
+  font-size: 60px;
   color: #00506e;
   font-weight: 1000;
   margin-bottom: 20px;
@@ -59,14 +59,14 @@ body {
   margin-bottom: 20px;
 }
 .left-content p {
-  font-size: 18px;
+  font-size: 20px;
   color: #8c8b8b;
   font-weight: 400;
   margin-bottom: 20px;
 }
 .left-content button {
-  font-size: 15px;
-  padding: 8px 35px;
+  font-size: 18px;
+  padding: 9px 35px;
   border: none;
   background: #16516c;
   color: #fff;
@@ -101,14 +101,40 @@ a {
   right: 0;
   z-index: 0;
 }
+@media (max-width:1920){
+  .left-section {
+    height: auto !important;
+  }
+  .left-content h1 {
+    font-size: 65px !important;
+  }
 
-/* 1920px */
+  .left-content h3 {
+    font-size: 40px !important;
+  }
+  .left-content p {
+    font-size: 30px !important;
+  }
+  .img-fluid {
+    width: 60% !important;
+  }
+  .left-content button {
+    font-size: 20px !important;
+    padding: 8px 35px;
+    margin-bottom: 15px;
+  }
+  .copy {
+    font-size: 22px !important;
+  }
+}
+
+/* 1830px */
 @media (min-width: 1600px) {
   .left-section {
     height: auto !important;
   }
   .left-content h1 {
-    font-size: 60px !important;
+    font-size: 65px !important;
   }
 
   .left-content h3 {
@@ -127,32 +153,6 @@ a {
   }
   .copy {
     font-size: 20px !important;
-  }
-}
-/* 1280 */
-@media (max-width: 1439px) {
-  .left-content h1 {
-    font-size: 50px !important;
-    margin-bottom: 20px;
-  }
-  .left-content h3 {
-    font-size: 30px !important;
-    margin-bottom: 20px;
-  }
-  .left-content p {
-    font-size: 18px !important;
-    margin-bottom: 20px;
-  } 
-  .left-content button {
-    font-size: 15px !important;
-    padding: 8px 35px;
-    margin-bottom: 15px;
-  }
-  .left-section {
-    height: auto !important;
-  }
-  .copy {
-    font-size: 15px !important;
   }
 }
 /* 1279 */
