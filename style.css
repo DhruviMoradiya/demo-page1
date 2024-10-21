@@ -19,7 +19,7 @@
   text-decoration: none;
   color: #fff !important;
 }
-.navbar :hover{
+.navbar :hover {
   color: black !important;
 }
 .navbar-collapse {
@@ -39,8 +39,8 @@
   box-shadow: none;
   background: transparent;
 }
-.navbar-brand a img {
-  margin-right: 10px;
+.navbar img{
+  margin-left: 12px;
 }
 .content {
   height: 100%;
@@ -52,20 +52,18 @@
   background: #e1e1e1;
   z-index: -1;
 }
-
 footer {
   background-color: #134761;
   opacity: 50%;
   z-index: 1;
 }
-
+.copy {
+  font-size: 17px !important;
+  margin-left: 12px !important;
+}
 a {
   text-decoration: none;
-  color: #fff;
-}
-.all-sections {
-  height: auto;
-  overflow: hidden;
+  color: #fff !important;
 }
 .content h1 {
   font-size: 65px;
@@ -75,7 +73,7 @@ a {
 }
 .content h3 {
   font-size: 40px;
-  color:  #00b3e3;
+  color: #00b3e3;
   font-weight: 500;
   margin-bottom: 20px;
 }
@@ -100,16 +98,71 @@ a {
   bottom: 0;
   right: 0;
   z-index: 0;
+  background-repeat: no-repeat;
 }
 /* 1750px */
-/* @media (max-width: 1920px){
-  .content{
-  padding: 60px 0 0 60px !important;
+@media (min-width: 1920px) {
+  .content {
+    padding: 60px 0 0 60px !important;
+  }
 }
-} */
+@media (max-width: 5000px){
+  .image {
+    height: 89% !important;
+    width: 50% !important;
+  }
+}
+@media (max-width: 4000px){
+  .image {
+    height: 89% !important;
+    width: 50% !important;
+  }
+}
+@media (max-width: 3182px){
+  .image {
+    height: 88% !important;
+    width: 50% !important;
+  }
+}
+@media (max-width: 2580px){
+  .image {
+    height: 87% !important;
+    width: 50% !important;
+  }
+}
+@media (max-width: 1830px){
+  .image {
+    height: 85% !important;
+    width: 50% !important;
+  }
+}
+@media (max-width: 2130px){
+  .image {
+    height: 83% !important;
+    width: 50% !important;
+  }
+}
+@media (max-width: 1830px){
+  .image {
+    height: 80% !important;
+    width: 50% !important;
+  }
+}
+@media (max-width: 1596px){
+  .image {
+    height: 78% !important;
+    width: 50% !important;
+  }
+}
+@media (max-width: 1425px){
+  .image {
+    height: 75% !important;  
+     width: 50% !important;
+  }
+}
 @media only screen and (max-width: 1220px) {
   .image {
-    height: 75% !important; 
+    height: 70% !important;
   }
   .content h1 {
     font-size: 50px !important;
@@ -126,15 +179,19 @@ a {
   .content button {
     font-size: 16px !important;
   }
+  .copy {
+    font-size: 15px !important;
+    margin-left: 8px !important;
+  }
 }
 
 @media only screen and (max-width: 1170px) {
   .image {
-    height: 75% !important;
+    height: 70% !important;
   }
 }
 
-@media only screen and (max-width: 1100px) {
+@media (max-width: 1100px) {
   .image {
     height: 70% !important;
   }
@@ -173,7 +230,7 @@ a {
     font-size: 24px !important;
     margin-bottom: 20px !important;
   }
-  .content img{
+  .content img {
     height: 12px !important;
     margin-bottom: 20px !important;
   }
@@ -185,6 +242,10 @@ a {
   .content button {
     font-size: 14px !important;
     margin-bottom: 20px !important;
+  }
+  .copy {
+    font-size: 18px !important;
+    margin-left: 8px !important;
   }
 }
 /* 375 */
@@ -206,15 +267,16 @@ a {
     font-size: 12px !important;
     margin-bottom: 20px !important;
   }
-  .content img{
+  .content img {
     height: 10px !important;
     margin-bottom: 20px !important;
   }
-  .navbar img{
+  .navbar img {
     height: 15px !important;
   }
-  .copy{
+  .copy {
     font-size: 15px !important;
+    margin-left: 8px !important;
   }
 }
 /* 320 */
@@ -234,24 +296,25 @@ a {
   .content button {
     font-size: 10px !important;
   }
-  .content img{
+  .content img {
     height: 10px !important;
   }
-  .navbar img{
+  .navbar img {
     height: 15px !important;
   }
-  .copy{
+  .copy {
     font-size: 15px !important;
+    margin-left: 8px !important;
   }
 }
 /* 280 */
 @media (max-width: 319px) {
   .content h1 {
-    font-size: 25px !important;
+    font-size: 30px !important;
   }
 
   .content h3 {
-    font-size: 15px !important;
+    font-size: 17px !important;
   }
 
   .content p {
@@ -261,13 +324,31 @@ a {
   .content button {
     font-size: 12px !important;
   }
-  .content img{
+  .content img {
     height: 10px !important;
   }
-  .navbar img{
+  .navbar img {
     height: 15px !important;
+    margin-left: 10px !important;
   }
-  .copy{
-    font-size: 15px !important;
+  .copy {
+    font-size: 12px !important;
+    margin-left: 8px !important;
+  }
+   
+}
+/* @keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
+
+.blink {
+  animation: blink 2s normal;
+} */
