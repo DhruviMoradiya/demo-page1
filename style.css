@@ -43,7 +43,7 @@
   margin-left: 12px;
 }
 .content {
-  height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -187,7 +187,7 @@ a {
     height: 70% !important;
   }
 }
-/* 768px */
+/* 768 */
 @media (max-width: 992px) {
   .senction {
     height: 100% !important;
