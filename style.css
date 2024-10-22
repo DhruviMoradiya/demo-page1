@@ -78,7 +78,7 @@ a {
   margin-bottom: 20px;
 }
 .content p {
-  font-size: 18px;
+  font-size: 20px;
   color: #8c8b8b;
   font-weight: 500;
   margin-bottom: 20px;
@@ -103,6 +103,9 @@ a {
   z-index: 0;
   background-repeat: no-repeat;
 }
+.line-break {
+  display: block;
+}
 /* 1750px */
 @media (min-width: 1920px) {
   .content {
@@ -111,56 +114,47 @@ a {
 }
 @media (max-width: 5000px){
   .image {
-    height: 89% !important;
-    width: 50% !important;
+    height: 87% !important;
   }
 }
 @media (max-width: 4000px){
   .image {
-    height: 89% !important;
-    width: 50% !important;
+    height: 87% !important;
   }
 }
 @media (max-width: 3182px){
   .image {
-    height: 88% !important;
-    width: 50% !important;
+    height: 86% !important;
   }
 }
 @media (max-width: 2580px){
   .image {
-    height: 87% !important;
-    width: 50% !important;
+    height: 85% !important;
   }
 }
 @media (max-width: 1830px){
   .image {
     height: 85% !important;
-    width: 50% !important;
   }
 }
 @media (max-width: 2130px){
   .image {
     height: 83% !important;
-    width: 50% !important;
   }
 }
 @media (max-width: 1830px){
   .image {
     height: 80% !important;
-    width: 50% !important;
   }
 }
 @media (max-width: 1596px){
   .image {
     height: 78% !important;
-    width: 50% !important;
   }
 }
 @media (max-width: 1425px){
   .image {
     height: 75% !important;  
-     width: 50% !important;
   }
 }
 @media only screen and (max-width: 1220px) {
@@ -250,6 +244,9 @@ a {
     font-size: 18px !important;
     margin-left: 8px !important;
   }
+  .line-break {
+    display: inline; 
+  }
 }
 /* 576 */
 @media (max-width: 767px) {
@@ -317,15 +314,15 @@ a {
 /* 320 */
 @media (max-width: 374px) {
   .content h1 {
-    font-size: 27px !important;
+    font-size: 32px !important;
   }
 
   .content h3 {
-    font-size: 18px !important;
+    font-size: 19px !important;
   }
 
   .content p {
-    font-size: 10px !important;
+    font-size: 12px !important;
   }
 
   .content button {
@@ -345,7 +342,7 @@ a {
 /* 280 */
 @media (max-width: 319px) {
   .content h1 {
-    font-size: 30px !important;
+    font-size: 35px !important;
   }
 
   .content h3 {
