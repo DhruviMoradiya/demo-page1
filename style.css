@@ -106,12 +106,6 @@ a {
 .line-break {
   display: block;
 }
-/* 1750px */
-@media (min-width: 1920px) {
-  .content {
-    padding: 60px 0 0 60px !important;
-  }
-}
 @media (max-width: 6000px){
   .image {
     height: 87% !important;
@@ -382,5 +376,5 @@ a {
 }
 
 .blink {
-  animation: blink 2s normal;
+  animation: blink 1s normal;
 } */
