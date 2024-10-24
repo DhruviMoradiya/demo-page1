@@ -106,6 +106,33 @@ a {
 .line-break {
   display: block;
 }
+
+@media (min-width: 1920px) {
+  .content h1 {
+    font-size: 80px !important;
+  }
+
+  .content h3 {
+    font-size: 40px !important;
+    margin-bottom: 20px !important;
+  }
+
+  .content p {
+    font-size: 24px !important; 
+    margin-bottom: 20px !important;
+  }
+
+  .content {
+    padding: 100px 0 0 100px !important; 
+    width: 60% !important; 
+  }
+
+  .image {
+    width: 60%; 
+    height: 80%;
+  }
+}
+
 @media (max-width: 6000px){
   .image {
     height: 87% !important;
@@ -129,11 +156,6 @@ a {
 @media (max-width: 1830px){
   .image {
     height: 85% !important;
-  }
-}
-@media (max-width: 2130px){
-  .image {
-    height: 83% !important;
   }
 }
 @media (max-width: 1830px){
