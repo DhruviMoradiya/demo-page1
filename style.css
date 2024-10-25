@@ -344,9 +344,6 @@ a {
   }
 }
 
-
-
-
 @media (max-width: 1220px) {
   .image {
     height: 70% !important;
@@ -559,7 +556,7 @@ a {
   }
    
 }
-/* @keyframes blink {
+@keyframes blink {
   0% {
     opacity: 1;
   }
@@ -573,4 +570,4 @@ a {
 
 .blink {
   animation: blink 1s normal;
-} */
+}
